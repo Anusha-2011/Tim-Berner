@@ -69,3 +69,20 @@ p {
     vertical-align: middle;
         text-align:center;
 }
+
+#menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right:30px ;
+    z-index:10;
+    cursor:pointer;
+}
+.lists{
+    float: left;
+    padding: 8px;
+    font-family: cursive;
+}
+.lists:hover{
+    background-color: aqua;
+}
